@@ -1,94 +1,57 @@
-# Hi, I'm Krish Prajapati 👋
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img src="./dark.svg" alt="Krish Prajapati — AI/ML Developer, Computer Vision and Edge AI" width="100%">
+  <img src="./dark.svg" alt="Krish Prajapati — AI/ML Developer. Computer Vision, Edge AI, and Python Backend. Gandhinagar, India." width="100%">
 </picture>
 
 <p align="center">
-  <b>AI/ML Developer · Computer Vision · Edge AI · Python Backend</b>
+  <a href="https://portfolio-krish-1208.vercel.app/">Portfolio</a> &nbsp; / &nbsp;
+  <a href="mailto:krishprajapati280@gmail.com">Email</a> &nbsp; / &nbsp;
+  <a href="https://github.com/Krishprajapati28?tab=repositories">Repositories</a>
 </p>
 
-<p align="center">
-  👁️ Computer Vision &nbsp;·&nbsp; 🎯 Object Detection &nbsp;·&nbsp; 🐍 Python &nbsp;·&nbsp; ⚙️ Embedded Inference &nbsp;·&nbsp; 📝 Document Processing
-</p>
+## Hello, I'm Krish.
 
 I build **computer vision applications, offline document-processing tools, and Python backend services**. My work connects model inference with the preprocessing, runtime integration, and application logic needed to solve practical problems.
 
 Based in **Gandhinagar, Gujarat, India**, I focus on video-processing pipelines, safety detection, and deploying AI on resource-constrained hardware.
 
----
+<details>
+<summary><b>What I build</b></summary>
 
-## 🤖 What I Build
+- **Computer vision applications** — object detection, PPE monitoring, and video analysis.
+- **Edge AI pipelines** — model-format integration, NPU runtime bindings, and inference preprocessing.
+- **Document-processing tools** — invoice field extraction and OCR workflows.
+- **Python backend services** — Flask APIs, structured data processing, and application integration.
+- **Video and event pipelines** — RTSP inputs, threaded frame processing, and event-driven systems.
 
-- 👁️ **Computer vision applications** — object detection, PPE monitoring, and video analysis.
-- ⚙️ **Edge AI pipelines** — model-format integration, NPU runtime bindings, and inference preprocessing.
-- 📝 **Document-processing tools** — invoice field extraction and OCR workflows.
-- 🐍 **Python backend services** — Flask APIs, structured data processing, and application integration.
-- 📡 **Video and event pipelines** — RTSP inputs, threaded frame processing, and event-driven systems.
-
----
-
-## 🧩 Featured Projects
-
-### 🦺 PPE & Safety-Gear Detection
-
-[GitHub Repository](https://github.com/Krishprajapati28/Safety-PPE-krish-)
-
-A video inference pipeline for detecting **safety equipment and missing-equipment classes**.
-
-- Threaded frame capture and display to separate video handling from inference.
-- Letterbox preprocessing, model-output decoding, and detection overlays.
-- **Python · OpenCV · NumPy · ASNN**
-
-[Explore the inference code](https://github.com/Krishprajapati28/Safety-PPE-krish-/blob/main/video%20%281%29.py)
-
-### 🧾 Invoice Data Extraction
-
-[GitHub Repository](https://github.com/Krishprajapati28/invoice-ocr)
-
-A local invoice-processing application with a **Flask backend and browser interface**.
-
-- Documented workflow for PDF text extraction and format-specific invoice parsing.
-- Structured extraction of invoice fields, with local setup instructions.
-- **Python · Flask · pdfplumber · HTML · CSS · JavaScript**
-
-[View setup and usage](https://github.com/Krishprajapati28/invoice-ocr#readme)
+</details>
 
 ---
 
-## 🛠️ Engineering Stack
+## Selected work
+*From model output to useful applications.*
 
-### 👁️ Computer Vision & AI
+[![PPE & Safety-Gear Detection. Python, OpenCV, NumPy, ASNN. Threaded capture, preprocessing, and detection overlays.](./assets/ppe.svg)](https://github.com/Krishprajapati28/Safety-PPE-krish-)
 
-`Computer Vision` `Object Detection` `YOLO` `OpenCV` `MediaPipe`
+[Repository](https://github.com/Krishprajapati28/Safety-PPE-krish-) · [Inference code](https://github.com/Krishprajapati28/Safety-PPE-krish-/blob/main/video%20%281%29.py)
 
-### ⚙️ Edge AI & Deployment
+[![Invoice Data Extraction. Local PDF text extraction and format-specific parsing with a Flask backend and browser interface.](./assets/invoice.svg)](https://github.com/Krishprajapati28/invoice-ocr)
 
-`ONNX` `ASNN` `NPU SDK Integration` `ctypes` `Offline Inference`
-
-### 🐍 Programming & Data
-
-`Python` `NumPy` `Pandas` `Matplotlib`
-
-### 📡 Backend & Systems
-
-`Flask` `REST APIs` `PostgreSQL` `NATS` `RTSP`
-
-### 🔧 Development Tools
-
-`Git` `Roboflow` `Google Colab` `Kaggle` `VS Code`
+[Repository](https://github.com/Krishprajapati28/invoice-ocr) · [Setup & usage](https://github.com/Krishprajapati28/invoice-ocr#readme)
 
 ---
 
-## 🎯 Engineering Interests
-
-Reliable video inference, offline AI applications, and the practical challenges of running models on embedded hardware.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img src="./assets/stack-dark.svg" alt="Engineering stack: Python, NumPy, Pandas, Matplotlib; YOLO, OpenCV, MediaPipe; ONNX, ASNN, ctypes; Flask, PostgreSQL, NATS, RTSP; Git, VS Code, Colab, Kaggle, Roboflow." width="100%">
+</picture>
 
 ---
 
-## 🐍 Contribution Activity
+## A year of building.
+*My contribution activity, one square at a time.*
 
 <p align="center">
   <picture>
@@ -98,15 +61,14 @@ Reliable video inference, offline AI applications, and the practical challenges 
   </picture>
 </p>
 
+
 ---
 
-## 📫 Connect With Me
+## Let's build something useful.
 
-🐙 [GitHub](https://github.com/Krishprajapati28)  
-📧 [Email](mailto:krishprajapati280@gmail.com)
+Interested in **AI/ML, computer vision, and Python backend opportunities**.
+I enjoy working on reliable video inference, offline AI, and practical embedded deployment.
 
-For **AI/ML, computer vision, and Python backend opportunities** or project discussions, feel free to get in touch.
+**[Portfolio](https://portfolio-krish-1208.vercel.app/) · [Email me](mailto:krishprajapati280@gmail.com) · [GitHub](https://github.com/Krishprajapati28)**
 
-> **Building practical AI, from models to applications.**
-
-
+<sub>Practical AI. Thoughtful engineering.</sub>
