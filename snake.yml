@@ -1,0 +1,53 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/snake.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate light and dark snake animations
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish animations to output branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          cd dist
+          git init -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          AUTH=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          git remote add origin "https://github.com/$REPOSITORY.git"
+          if git -c http.extraheader="AUTHORIZATION: basic $AUTH" ls-remote --exit-code origin refs/heads/output; then
+            git -c http.extraheader="AUTHORIZATION: basic $AUTH" fetch origin output
+            git reset --mixed FETCH_HEAD
+          fi
+          git add github-snake.svg github-snake-dark.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "Update contribution snake"
+          git -c http.extraheader="AUTHORIZATION: basic $AUTH" push origin HEAD:output
+
