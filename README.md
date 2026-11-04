@@ -10,25 +10,6 @@
   <a href="https://github.com/Krishprajapati28?tab=repositories">Repositories</a>
 </p>
 
-## Hello, I'm Krish.
-
-I build **computer vision applications, offline document-processing tools, and Python backend services**. My work connects model inference with the preprocessing, runtime integration, and application logic needed to solve practical problems.
-
-Based in **Gandhinagar, Gujarat, India**, I focus on video-processing pipelines, safety detection, and deploying AI on resource-constrained hardware.
-
-<details>
-<summary><b>What I build</b></summary>
-
-- **Computer vision applications** — object detection, PPE monitoring, and video analysis.
-- **Edge AI pipelines** — model-format integration, NPU runtime bindings, and inference preprocessing.
-- **Document-processing tools** — invoice field extraction and OCR workflows.
-- **Python backend services** — Flask APIs, structured data processing, and application integration.
-- **Video and event pipelines** — RTSP inputs, threaded frame processing, and event-driven systems.
-
-</details>
-
----
-
 ## Selected work
 *From model output to useful applications.*
 
