@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="460" viewBox="0 0 1100 460" role="img" aria-labelledby="title desc">
+<title id="title">Krish Prajapati — AI/ML Developer</title><desc id="desc">Computer vision, edge AI, and Python backend development. Animated circuit-style profile banner.</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#274460"/></pattern><linearGradient id="accent"><stop stop-color="#47e1ed"/><stop offset="1" stop-color="#8b7cf8"/></linearGradient></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:Consolas,monospace}.flow{stroke-dasharray:8 12;animation:flow 8s linear infinite}@keyframes flow{to{stroke-dashoffset:-120}}.pulse{animation:pulse 3s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}</style>
+<rect x="1" y="1" width="1098" height="458" rx="22" fill="#080e1b" stroke="#274460"/>
+<rect x="2" y="2" width="1096" height="456" rx="22" fill="url(#grid)" opacity=".5"/>
+<path d="M30 62H1070" stroke="#274460"/><circle cx="34" cy="33" r="5" fill="#f08080"/><circle cx="54" cy="33" r="5" fill="#e5bc69"/><circle cx="74" cy="33" r="5" fill="#70cfa3"/>
+<text x="100" y="38" class="mono" font-size="14" fill="#94aac4">krish / engineering</text><text x="1065" y="38" text-anchor="end" class="mono" font-size="12" fill="#47e1ed">COMPUTER VISION + EDGE AI</text>
+<text x="52" y="125" class="mono" font-size="14" letter-spacing="3" fill="#47e1ed">HELLO, I'M</text>
+<text x="48" y="185" font-size="52" font-weight="700" fill="#edf6ff">Krish Prajapati</text>
+<text x="52" y="225" font-size="22" fill="#94aac4">AI / ML Developer</text>
+<rect x="52" y="250" width="78" height="4" rx="2" fill="url(#accent)"/>
+<text x="52" y="293" font-size="18" fill="#edf6ff">Building practical AI,</text><text x="52" y="321" font-size="18" fill="#edf6ff">from models to applications.</text>
+<text x="52" y="386" class="mono" font-size="13" fill="#94aac4">PYTHON / VISION / BACKEND / EMBEDDED</text>
+<rect x="655" y="98" width="395" height="294" rx="16" fill="#101a2b" stroke="#274460"/>
+<text x="682" y="130" class="mono" font-size="13" fill="#94aac4">FOCUS AREAS</text>
+<path d="M695 173V333" stroke="#47e1ed" stroke-width="2" class="flow"/>
+<circle cx="695" cy="174" r="5" fill="#47e1ed" class="pulse"/><text x="718" y="180" font-size="18" fill="#edf6ff">Computer Vision</text><circle cx="695" cy="223" r="5" fill="#47e1ed" class="pulse"/><text x="718" y="229" font-size="18" fill="#edf6ff">Edge Inference</text><circle cx="695" cy="272" r="5" fill="#47e1ed" class="pulse"/><text x="718" y="278" font-size="18" fill="#edf6ff">Document Processing</text><circle cx="695" cy="321" r="5" fill="#47e1ed" class="pulse"/><text x="718" y="327" font-size="18" fill="#edf6ff">Python Backend</text>
+<path d="M52 425H1048" stroke="url(#accent)" stroke-width="2" class="flow"/>
+</svg>
