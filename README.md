@@ -88,6 +88,18 @@ Reliable video inference, offline AI applications, and the practical challenges 
 
 ---
 
+## 🐍 Contribution Activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krishprajapati28/Krishprajapati28/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Krishprajapati28/Krishprajapati28/output/github-snake.svg">
+    <img alt="Snake animation of Krish Prajapati's GitHub contributions" src="https://raw.githubusercontent.com/Krishprajapati28/Krishprajapati28/output/github-snake.svg" width="100%">
+  </picture>
+</p>
+
+---
+
 ## 📫 Connect With Me
 
 🐙 [GitHub](https://github.com/Krishprajapati28)  
@@ -96,4 +108,5 @@ Reliable video inference, offline AI applications, and the practical challenges 
 For **AI/ML, computer vision, and Python backend opportunities** or project discussions, feel free to get in touch.
 
 > **Building practical AI, from models to applications.**
+
 
